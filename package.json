@@ -1,0 +1,45 @@
+{
+  "name": "test-evsikova_n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/in.aim/test-evsikova_n.git"
+  },
+  "author": "Evsikova Nadezhda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/in.aim/test-evsikova_n/issues"
+  },
+  "homepage": "https://gitlab.com/in.aim/test-evsikova_n#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "browser-sync": "^2.27.10",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "i": "^0.3.7",
+    "npm": "^8.12.1"
+  },
+  "dependencies": {
+    "sass": "^1.52.1"
+  }
+}
