@@ -33,6 +33,7 @@ const path = {
     },
     pug: {
         src: 'src/pages/**.pug',
+        parts: 'src/parts/**.pug',
         dest: 'dist'
     },
     images: {
@@ -110,8 +111,9 @@ function serve() {
         server: path.serve
     })
 
-    watch(path.html.src, series(html)).on('change', sync.reload)
-    watch(path.html.parts, series(html)).on('change', sync.reload)
+    //watch(path.html.src, series(html)).on('change', sync.reload)
+    //watch(path.html.parts, series(html)).on('change', sync.reload)
+    watch(path.pug.parts, series(pug)).on('change', sync.reload)
     watch(path.pug.src, series(pug)).on('change', sync.reload)
     watch(path.styles.src, series(scss)).on('change', sync.reload)
     watch(path.styles.blocks, series(scss)).on('change', sync.reload)
